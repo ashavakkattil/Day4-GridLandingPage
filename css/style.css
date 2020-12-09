@@ -6,8 +6,9 @@ body {
   margin: 0px;
 }
 .container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
+  overflow: hidden;
 }
 /* Shpwcase section styling */
 #showcase {
@@ -37,7 +38,7 @@ body {
   font-weight: normal;
 }
 
-/* About Us section styling */
+/* Company details section styling */
 #companyDetails {
   background-color: rgba(0, 0, 0, 0.9);
   color: #ffffff;
@@ -56,4 +57,37 @@ body {
 .fa-briefcase,
 .fa-laptop {
   font-size: 48px;
+}
+
+/* About Us section styling */
+.about {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+}
+
+@media (max-width: 760px) {
+  #showcase {
+    background-position: center;
+  }
+  #showcase h1 {
+    text-align: center;
+  }
+  #showcase p {
+    display: none;
+  }
+  #showcase > div {
+    width: 70%;
+  }
+  #showcase img {
+    width: 120px;
+  }
+  #companyDetails .details {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+  }
+  #companyDetails .details div {
+    padding: 15px 0px;
+    border-bottom: 1px #eeeeee dashed;
+  }
 }
