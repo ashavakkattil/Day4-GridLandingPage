@@ -5,7 +5,11 @@ body {
   font-family: Helvetica, sans-serif;
   margin: 0px;
 }
-
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Shpwcase section styling */
 #showcase {
   background-image: url("../images/showcase.jpg");
   background-position: 2px -200px;
@@ -19,6 +23,7 @@ body {
 #showcase img {
   width: 180px;
 }
+
 #showcase > div {
   padding-top: 200px;
   width: 19%;
@@ -30,4 +35,25 @@ body {
   line-height: 1.2em;
   text-transform: capitalize;
   font-weight: normal;
+}
+
+/* About Us section styling */
+#companyDetails {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+}
+#companyDetails .details {
+  max-width: 50%;
+  min-height: 200px;
+  padding: 40px 30px 30px 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  align-items: center;
+  text-align: center;
+}
+.fa-youtube-play,
+.fa-briefcase,
+.fa-laptop {
+  font-size: 48px;
 }
