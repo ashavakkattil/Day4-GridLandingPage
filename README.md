@@ -11,7 +11,9 @@ The parent folder contains the code that I tried as part of learning.
 
 ### Prerequisites
 
-None
+* HTML5
+* CSS3
+* Basic understanding of CSS Flexbox and Grid Layout
 
 ## Built With
 
